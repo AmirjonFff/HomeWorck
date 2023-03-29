@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+.navbar{
+    color: #777777;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 5px 5px silver;
+}
+.navbar_item, .navbar_poisk{
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 10px 16px;
+    display: inline-block;
+}
+.navbar_item:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.navbar_link{
+    display: inline-block;
+}
+i{
+    width: auto;
+    height: 15.2px;
+}
+.navbar_poisk{
+    float: right;
+}
+.header_body{
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background: url(./img/img1.jpg) center/ cover no-repeat;
+}
+.header_text{
+    padding: 12px 24px;
+    letter-spacing: 10px;
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    background: #000;
+}
+.contener{
+    margin: 0 auto;
+    max-width: 948px;
+}
+.about_body{
+    padding: 64px 16px;
+}
+.title{
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    color: #777;
+    text-align: center;
+}
+.about_text{
+    line-height: 1.8;
+    font-size: 15px;
+}
+.about_text p:first-child{
+    text-align: center;
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.block_image{
+    display: inline-block;
+    width: 49.99%;
+    padding: 12px 24px;
+    box-sizing: border-box;
+}
+.block_image img{
+    max-width: 100%;
+    height: auto;
+}
+.block_title i{
+    margin-right: 10px;
+}
+.block_title{
+    font-weight: 600;
+    margin: 50px 0;
+    text-align: center;
+}
+.about-block{
+    width: 100%;
+}
+.block_textimg{
+    height: auto;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 49.5%;
+    line-height: 1.8;
+    font-size: 15px;
+    padding: 12px 24px;
+}
+.persent_title{
+    font-size: 18px;
+    text-align: center;
+    margin: 40px 0;
+}
+.persent_logo{
+    margin: 15px 0;
+    letter-spacing: 10px;
+}
+.persent_block{
+    height: 35px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.persent_blockin1{
+    text-align: center;
+    color: white;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px 0;
+}
+.persent_blockin2{
+    text-align: center;
+    color: white;
+    width: 85%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px 0;
+}
+.persent_blockin3{
+    text-align: center;
+    color: white;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8.5px 0;
+}
+.black_body{
+    color: white;
+    line-height: 1.8;
+    height: 136px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.black{
+    text-align: center;
+}
+.portfolio_italik{
+    line-height: 2;
+    text-align: center;
+    width: 400px;
+    font-style: italic;
+    margin: 50px auto;
+}
+.about-back{
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/img3.jpg) center / cover no-repeat;
+    min-height: 400px;
+    opacity: 0.75;
+}
+.back_text{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 36px;
+    color: white;
+}
+.portfolio_grid{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+.grid{
+    position: relative;
+    padding-bottom: 75%;
+}
+.grid img{
+    width: 100%;
+    height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+object-fit: cover;
+}
+.portfolio_btn{
+    width: 150px;
+   
+    margin: 60px auto;
+}
+.portfolio_btn button{
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.1);
+}
+.portfolio_imgback{
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    background: url(./img/img4.jpg) center / cover no-repeat;
+}
+.imgback_title{
+    font-size: 36px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+.contact_title{
+    margin: 60px 0;
+}
+.contact_italik{
+    text-align: center;
+    font-style: italic;
+    margin: 50px 0;
+}
+.maptel_img{
+    width: 33.3%;
+    display: inline-block;
+}
+.maptel_img img{
+    padding: 0 15px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+.maptel_contact{
+    padding: 0 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 66%;
+}
+.maptel_contact p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+.maptel_contact p:nth-child(4){
+    font-size: 14px;
+}
+input{
+    margin: 5px 0;
+    width: 100%;
+    padding: 8px;
+}
+.mi{
+    width: 45% !important;
+}

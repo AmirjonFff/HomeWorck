@@ -1,0 +1,98 @@
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.block{
+    margin: 50px 0 0 200px;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-evenly;
+    align-items: center; 
+    width: 270px;
+    height: 650px;
+    background: #000;
+    border-radius: 45px;
+}
+.block_block1, .block_block2, .block_block3{
+    width: 170px;
+    height: 170px;
+    border-radius: 100%;
+}
+.block_block1{
+background: rgb(205, 7, 7);
+box-shadow: 0 0 30px rgb(205, 7, 7);
+}
+.block_block2{
+background: rgb(228, 232, 6);
+box-shadow: 0 0 30px rgb(228, 232, 6);
+}
+.block_block3{
+background: rgb(7, 205, 7);
+box-shadow: 0 0 30px rgb(7, 173, 7);
+}
+.blockh{
+    border-radius: 40px;
+    box-shadow: inset 5px 5px 5px rgb(205, 7, 7);
+    box-shadow: 7px 7px 10px rgb(205, 7, 7), 14px 14px 10px rgb(228, 232, 6), 21px 21px 10px rgb(7, 173, 7);;
+    width: 600px;
+    height: 650px;
+    margin: 50px 0 0 270px;
+    transition: block_blockh1 0.5s ease-in 0s, block_blockh2 0.5s ease-in 0s, block_blockh3 0.5s ease-in 0s;
+}
+.block_blockh1, .block_blockh2, .block_blockh3{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 200px;
+    background: #000;
+    transition: all 2s ease-in 0s;
+}
+.block_blockh1{
+    box-sizing: border-box;
+    padding-top: 15px;
+    border-radius: 40px 40px 0 0;
+    transform: translate(161%, 0);
+}
+.block_blockh1:hover .blok1{  
+background: rgb(205, 7, 7) !important;
+box-shadow: 0 0 30px rgb(205, 7, 7);
+}
+.block_blockh2:hover .blok2{  
+    background: rgb(228, 232, 6) !important;
+    box-shadow: 0 0 30px rgb(228, 232, 6);
+}
+.block_blockh3:hover .blok3{  
+    background: rgb(7, 205, 7) !important;
+    box-shadow: 0 0 30px rgb(7, 173, 7);
+}
+.block_blockh2{
+    transform: translate(80%, 25px);
+}
+.block_blockh3{
+    padding-bottom: 15px;
+    box-sizing: border-box;
+    border-radius: 0 0 40px 40px;
+    transform: translate(0px, 50px);
+}
+.blok1, .blok2, .blok3{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+}
+.blockh:hover .blok1{
+    background: #2f2b2b;
+}
+.blockh:hover .blok2{
+    background: #2f2b2b;
+}
+.blockh:hover .blok3{
+    background: #292525;
+}
+.blockh:hover .block_blockh1{
+    transform: translate(80%, 26px);   
+}
+.blockh:hover .block_blockh3{
+    transform: translate(80%, 24px);
+}
